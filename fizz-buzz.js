@@ -1,4 +1,4 @@
-function FizzBuzz(n) {
+function fizzBuzz(n) {
   for (let i = 1; i <= n; i++) {
     if (i % 3 === 0 && i % 5 === 0) {
       console.log("FizzBuzz");
@@ -12,11 +12,11 @@ function FizzBuzz(n) {
   }
 }
 
-FizzBuzz(10);
+fizzBuzz(10);
 
 // Short version
 
-function FizzBuzz2(n) {
+function fizzBuzz2(n) {
   for (let i = 1; i <= n; i++)
     console.log(
       i % 3 === 0 && i % 5 === 0
@@ -29,4 +29,4 @@ function FizzBuzz2(n) {
     );
 }
 
-FizzBuzz2(20);
+fizzBuzz2(20);
